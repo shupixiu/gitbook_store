@@ -6,6 +6,7 @@
 * [接口规则](jie-kou-gui-ze.md)
   * [协议规则](jie-kou-gui-ze/xie-yi-gui-ze.md)
   * [签名与验签](jie-kou-gui-ze/qian-ming.md)
+  * [商户密钥和平台密钥](jie-kou-gui-ze/shang-hu-mi-yao-he-ping-tai-mi-yao.md)
 * [API列表](chapter1.md)
   * [下单](chapter1/di-yi-zhang-di-yi-jie.md)
   * [支付结果通知](chapter1/zhi-fu-jie-guo-tong-zhi.md)
