@@ -11,6 +11,23 @@
 | longitude|String | 是 | | ||
 | latitude | String| 是 | | ||
 | app_id | String| 是 | 32|车联网分配给开发者的应用ID|2018081888888|
+| timestamp | |  | |||
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
