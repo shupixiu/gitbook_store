@@ -8,8 +8,17 @@
 | 参数 | 类型 | 是否必填|最大长度|描述|实例值
 | :------| :------ | :------ | :------ | :------ | :------ 
 | car_id | String | 是 | 32| 车辆注册id| |
-| longitude |String | 是 | | ||
+| longitude|String | 是 | | ||
 | latitude | String| 是 | | ||
+| latitude | String| 是 | | ||
+
+
+
+
+
+
+
+
 
 
 
