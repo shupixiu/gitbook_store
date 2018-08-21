@@ -7,7 +7,7 @@
 
 | 参数 | 类型 | 是否必填|最大长度|描述|实例值
 | :------| :------ | :------ | :------ | :------ | :------ 
-| car_number | String | 是 | 32| 车辆注册id| |
+| car_number | String | 是 |8|车牌号| |
 | longitude|String | 是 | | ||
 | latitude | String| 是 | | ||
 | app_id | String| 是 | 32|车联网分配给开发者的应用ID|2018081888888|
