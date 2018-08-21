@@ -33,8 +33,7 @@ Ua6hops4dgJ4cS5Lii6G6wnDZUhCihY/5/RNx4np2gorkEBw2JpYRXhHnCkCQHsv
 cMKDflwz/z8RM4xAlOmMjokHMvPaa9Vt7SJjUEe+5Ptu0KZpqqtT1rDVBgjhRrCR
 VgF0SBEbnPcq6UWRM6kCQQCuPWrK7tZ5fWVzYHlqxWVppAyHfIr02RBDhkHw3rpN
 yOcDC2DOMNnqMtAEO0MB+lnE2LVKEx2psXhsCWe66IGv
------END RSA PRIVATE KEY----- 
-```code
+-----END RSA PRIVATE KEY-----  ```javascript
 PKCS8处理后的私钥文件示例（Java使用）：
 
 -----BEGIN PRIVATE KEY-----
