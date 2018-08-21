@@ -13,6 +13,13 @@
 | app_id | String| 是 | 32|车联网分配给开发者的应用ID|2018081888888|
 | timestamp | |  | |发送请求的时间||
 | version | String| 是 | |调用的接口版本||
+| device_info | String| 是 |32 |设备号||
+
+
+
+
+
+
 
 
 
