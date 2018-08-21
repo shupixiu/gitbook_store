@@ -12,13 +12,14 @@
     OpenSSL> rsa -in rsa_private_key.pem -pubout -out rsa_public_key.pem #生成公钥
     OpenSSL> exit #退出OpenSSL程序
     
-经过以上步骤，开发者可以在当前文件夹中（OpenSSL运行文件夹），看到rsa_private_key.pem（RSA私钥）、rsa_private_key_pkcs8.pem（pkcs8格式RSA私钥）和rsa_public_key.pem（对应RSA公钥）3个文件。开发者将私钥保留，将公钥提交给百度电商开放平台，用于验证签名。
+经过以上步骤，开发者可以在当前文件夹中（OpenSSL运行文件夹），看到rsa_private_key.pem（RSA私钥）、rsa_private_key_pkcs8.pem（pkcs8格式RSA私钥）和rsa_public_key.pem（对应RSA公钥）3个文件。开发者将私钥保留，将公钥提交平台，用于验证签名。
 
 注意：对于使用Java的开发者，将pkcs8在console中输出的私钥去除头尾、换行和空格，作为开发者私钥，对于.NET和PHP的开发者来说，无需进行pkcs8命令行操作。
 
 标准的私钥文件示例（PHP、.NET使用）：
 
------BEGIN RSA PRIVATE KEY-----
+ ```code    
+ -----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQCzrQWntOKChNlF9B1l+21rHjALLhUlLgXtvsGFNL3X5KdxUM8P
 IrXog0tNXiuW8XPoP3o25y/gKNWyUfzyRD/0Eu4NvHH4IzMAte9adj2prq3niDho
 CNKf9KsyHYTxvsu3Sw66ejQqKobT74SSZ9EHm1UF7n64muso9ofd+RPFIQIDAQAB
@@ -32,7 +33,8 @@ Ua6hops4dgJ4cS5Lii6G6wnDZUhCihY/5/RNx4np2gorkEBw2JpYRXhHnCkCQHsv
 cMKDflwz/z8RM4xAlOmMjokHMvPaa9Vt7SJjUEe+5Ptu0KZpqqtT1rDVBgjhRrCR
 VgF0SBEbnPcq6UWRM6kCQQCuPWrK7tZ5fWVzYHlqxWVppAyHfIr02RBDhkHw3rpN
 yOcDC2DOMNnqMtAEO0MB+lnE2LVKEx2psXhsCWe66IGv
------END RSA PRIVATE KEY-----
+-----END RSA PRIVATE KEY----- 
+```code
 PKCS8处理后的私钥文件示例（Java使用）：
 
 -----BEGIN PRIVATE KEY-----
