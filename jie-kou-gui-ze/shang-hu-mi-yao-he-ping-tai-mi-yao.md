@@ -6,8 +6,11 @@
 
 
 ##RSA公私钥生成
+
 生成方式：使用OpenSSL命令生成。
+
 首先进入OpenSSL工具，再输入以下命令：
+
 
     OpenSSL> genrsa -out rsa_private_key.pem   1024  #生成私钥
     OpenSSL> pkcs8 -topk8 -inform PEM -in rsa_private_key.pem -outform PEM -nocrypt -out         rsa_private_key_pkcs8.pem #Java开发者需要将私钥转换成PKCS8格式
