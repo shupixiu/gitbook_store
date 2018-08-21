@@ -16,7 +16,7 @@
 
 注意：对于使用Java的开发者，将pkcs8在console中输出的私钥去除头尾、换行和空格，作为开发者私钥，对于.NET和PHP的开发者来说，无需进行pkcs8命令行操作。
 
-标准的私钥文件示例（PHP、.NET使用）：
+标准的私钥文件示例（PHP、.NET使）：
 
 ```javascript  
  -----BEGIN RSA PRIVATE KEY-----
