@@ -19,6 +19,7 @@
     
 经过以上步骤，开发者可以在当前文件夹中（OpenSSL运行文件夹），看到rsa_private_key.pem（RSA私钥）、rsa_private_key_pkcs8.pem（pkcs8格式RSA私钥）和rsa_public_key.pem（对应RSA公钥）3个文件。开发者将私钥保留，将公钥提交平台，用于验证签名。
 
+
 注意：对于使用Java的开发者，将pkcs8在console中输出的私钥去除头尾、换行和空格，作为开发者私钥，对于.NET和PHP的开发者来说，无需进行pkcs8命令行操作。
 标准的私钥文件示例（PHP使用）：
 
@@ -41,6 +42,7 @@ yOcDC2DOMNnqMtAEO0MB+lnE2LVKEx2psXhsCWe66IGv
 -----END RSA PRIVATE KEY-----
 ```
 KCS8处理后的私钥文件示例（Java使用）：
+
 ```
 -----BEGIN PRIVATE KEY-----
 MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBALOtBae04oKE2UX0
