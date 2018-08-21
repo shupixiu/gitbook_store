@@ -18,7 +18,7 @@
 
 标准的私钥文件示例（PHP、.NET使用）：
 
- ```code    
+ ```javascript  
  -----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQCzrQWntOKChNlF9B1l+21rHjALLhUlLgXtvsGFNL3X5KdxUM8P
 IrXog0tNXiuW8XPoP3o25y/gKNWyUfzyRD/0Eu4NvHH4IzMAte9adj2prq3niDho
