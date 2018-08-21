@@ -64,6 +64,7 @@ HamxeGwJZ7roga8=
 ```
 
 标准的公钥文件示例（PHP使用）：
+
 ```
 -----BEGIN PUBLIC KEY-----
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzrQWntOKChNlF9B1l+21rHjAL
