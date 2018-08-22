@@ -39,7 +39,9 @@ https://iov.service.baidu.com/iovorder/api/generateorder
  |errmsg|String|是|64|返回信息|| 
  |data |Object |是|-|返回数据||
 
+
  data字段为json格式，参数如下：
+ 
  
 |参数名 |类型|是否必填|最大长度|描述|实例值
 | :------| :------ | :------ | :------ | :------ | :------
