@@ -1,21 +1,5 @@
-
-
-| 参数 | 类型 | 是否必填|最大长度|描述|实例值
-| :------| :------ | :------ | :------ | :------ | :------ 
-| car_number | String | 否 |8|车牌号|京Bxxxxx |
-| longitude|String | 是 | |经度 |116.289573|
-| latitude | String| 是 | |纬度|39.9948|
-| app_id | String| 是 | 32|车联网分配给开发者的应用ID|2018081888888|
-| timestamp | |  | |发送请求的时间||
-| version | String| 是 |5 |调用的接口版本固定值为1.0||
-| device_id | String| 是 |32 |设备号||
-
-
-
-
-
 ##下单
-
+商户通过该接口将订单同步到车联网
 ###接口链接
 
 URL地址：https://iov.service.baidu.com/iovorder/api/generateorder
