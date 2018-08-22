@@ -34,9 +34,14 @@ URL地址：https://iov.service.baidu.com/iovorder/orderquery
 |out_trade_no |String|是|32|商户订单号|900020199
 |order_status |String|是|10|订单状态 WAIT_PAY (待支付)，PAID（已支付），REFUNDING（退款中），REFUNDED(退款完成)，OVERDUE（已失效）|WAIT_PAY|
 
-###请求实例
+###请求示例
 
-###响应实例
+
+###响应示例
+
+
+
+
 
 
 
