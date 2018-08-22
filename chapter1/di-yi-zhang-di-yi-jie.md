@@ -16,7 +16,8 @@
 
 ##alipay.trade.fastpay.refund.query(统一收单交易退款查询)
 ###接口链接
-URL地址：https://api.mch.weixin.qq.com/pay/unifiedorder
+
+URL地址：https://iov.service.baidu.com/iovorder/api/generateorder
 
 ###请求参数
  |参数名 |类型|是否必填|最大长度|描述|实例值
