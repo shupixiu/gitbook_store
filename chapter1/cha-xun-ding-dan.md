@@ -13,3 +13,7 @@ URL地址：https://iov.service.baidu.com/iovorder/orderquery
  |version | String| 是 |5 |调用的接口版本固定值为1.0||
  |time |Int|是|-|发送请求的时间戳，精确到秒|
  |sign |string| 是|商户请求参数的签名串，详见签名|详见示例
+| order_id |String|是|64| 车联网订单id|1069227442364|
+
+
+ 
