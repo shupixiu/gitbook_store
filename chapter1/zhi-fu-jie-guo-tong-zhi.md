@@ -3,5 +3,3 @@
 
 ###接口链接
 
-URL地址：https://iov.service.baidu.com/iovorder/changeOrderStatus
-
