@@ -27,5 +27,8 @@ URL地址：https://iov.service.baidu.com/iovorder/orderquery
 |参数名 |类型|是否必填|最大长度|描述|实例值
 | :------| :------ | :------ | :------ | :------ | :------
 | order_id |String|是|64| 车联网订单id|1069227442364|
+| order_id |String|是|64| 车联网订单id|1069227442364|
+
+
 
  
