@@ -29,7 +29,7 @@ URL地址：https://iov.service.baidu.com/iovorder/orderquery
 | order_id |String|是|64| 车联网订单id|1069227442364|
 |uid |Bigint|是|-|百度用户id| 149235070
 |out_trade_no |String|是|32|商户订单号|900020199
-|order_status |String|是|10|订单状态, INIT（初始状态）,WAIT_PAY (待支付)，PAID（已支付），SUCCESS（订单成功-已打款给商户），FINISH（订单完成-全额退款）|
+|order_status |String|是|10|订单状态|
 
 
  
