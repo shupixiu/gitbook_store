@@ -9,12 +9,12 @@ URL地址：https://iov.service.baidu.com/iovorder/changeOrderStatus
 ###请求参数
  |参数名 |类型|是否必填|最大长度|描述|实例值
 | :------| :------ | :------ | :------ | :------ | :------ 
- |uid |Bigint|是|-|百度用户id| 149235070
+ |uid |Bigint|是|-|百度用户id| 149235070|
  |out_trade_no |String|是|32|商户订单号|900020199
  |version | String| 是 |5 |调用的接口版本固定值为1.0||
- |time |Int|是|10|发送请求的时间戳，精确到秒|1514917884
- |sign |string| 是|商户请求参数的签名串，详见签名|详见示例
- |order_id |String|是|64| 车联网订单id|1069227442364|
+ |time |Int|是|10|发送请求的时间戳，精确到秒|1514917884|
+|sign |String| 是|-|商户请求参数的签名串，详见签名|详见[签名与验签](/jie-kou-gui-ze/qian-ming.md)|
+|order_id |String|是|64| 车联网订单id|1069227442364|
  |order_status |Int|订单状态|是|3| 期望更新后订单状态|
 
 ###返回结果
