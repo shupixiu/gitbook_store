@@ -3,7 +3,7 @@
 
 ###接口链接
 
-URL地址：https://iov.service.baidu.com/iovorder/orderquery
+URL地址：https://iov.service.baidu.com/iovorder/changeOrderStatus
 
 ###请求参数
  |参数名 |类型|是否必填|最大长度|描述|实例值
