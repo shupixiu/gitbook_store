@@ -18,8 +18,6 @@ URL地址：https://iov.service.baidu.com/iovorder/changeOrderStatus
 
 
 
-
-
 |参数名 | 参数含义 | 格式说明|是否必须|
 |:----|:---:|----:|
  |uid |百度uid| bigint|是|
