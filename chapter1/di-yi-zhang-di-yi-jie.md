@@ -2,7 +2,9 @@
 商户通过该接口将订单同步到车联网
 ###接口链接
 
-URL地址：https://iov.service.baidu.com/iovorder/api/generateorder
+URL地址：
+
+https://iov.service.baidu.com/iovorder/api/generateorder
 
 ###请求参数
  |参数名 |类型|是否必填|最大长度|描述|实例值
