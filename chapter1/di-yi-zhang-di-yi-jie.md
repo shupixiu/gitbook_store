@@ -50,7 +50,7 @@ https://iov.service.baidu.com/iovorder/api/generateorder
 | :------| :------ | :------ | :------ | :------ | :------
 | order_id |String|是|64| 车联网订单id|1069227442364|
  
-###请求实例
+###请求示例
 
 ###响应实例
 
