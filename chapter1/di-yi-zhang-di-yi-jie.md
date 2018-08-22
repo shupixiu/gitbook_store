@@ -30,7 +30,7 @@ https://iov.service.baidu.com/iovorder/api/generateorder
 |expire_time|String|是|19|交易的过期时间,格式为"yyyy-MM-dd HH:mm:ss"|2018-08-08 08:08:08|
 |extra|String|是|500|扩展字段，业务自己决定放什么；不超过500个字符；json格式||
 |time |Int|是|10|发送请求的时间戳，精确到秒|1514917884|
-|sign |String| 是|-|商户请求参数的签名串，详见签名|详见示例|
+|sign |String| 是|-|商户请求参数的签名串，详见签名|详见[签名与验签](/jie-kou-gui-ze/qian-ming.md)|
 
 
 
