@@ -28,6 +28,8 @@ URL地址：https://iov.service.baidu.com/iovorder/orderquery
 | :------| :------ | :------ | :------ | :------ | :------
 | order_id |String|是|64| 车联网订单id|1069227442364|
 |uid |Bigint|是|-|百度用户id| 149235070
+|out_trade_no |String|是|32|商户订单号|900020199
+|order_status |String|是|32|商户订单号|900020199
 
 
  
