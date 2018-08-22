@@ -4,6 +4,40 @@
 
 
 
+###请求参数
+ |参数名 | 参数含义 | 格式说明|是否必须|
+|:----|:---:|----:|
+ |uid |百度uid| bigint|是|
+ |scene_order_id |业务场景订单id| |是|
+ |identity_no  |身份标识[服务器端分配] |string|是|
+ |goods_name |商品名称|允许包含中文；不超过128个字符或64个汉字 |是|
+ |goods_url |商品在商户网站上的url；不超过255个字符|URL |是|
+ |goods_unit_price |商品单价，以分为单位|非负整数，不超过14个字符|是|
+ |goods_count |商品数量| 非负整数，不超过14个字符|是|
+ |goods_total_price |订单总金额,以分为单位|非负整数，不超过14个字符|是|
+ |transport_price |运费，以分为单位| 非负整数，不超过14个字符|是|
+ |scene_order_time|业务订单时间|Y-m-d  H：i：s|是|
+ |expire_time|交易的过期时间|Y-m-d H：i：s|是|
+ |time |请求时间戳| 时间戳，精确到秒|是|
+ |sign |签名| string|是|
+ |film_pay_order_id|电影方订单id, 电影专用|非负整数，不超过14个字符|否|
+ ###返回结果
+|参数名 | 参数含义 | 格式说明|是否必须|
+|:----|:---:|----:|
+ |errno|错误码，0为正常|int |是|
+ |errmsg|错误信息描述| string|是|
+ |data |下面是其内部字段描述 | array|是|
+
+ data字段为json格式，参数如下：
+ 
+|参数名 | 参数含义 | 格式说明|是否必须|
+|:----|:---:|----:|
+ | pay_order_id | 支付订单id|bigint|是|
+ 
+ 
+ 
+ 
+
 
 
 
