@@ -29,7 +29,7 @@ https://iov.service.baidu.com/iovorder/api/generateorder
 |out_trade_time|String|是|19|业务订单生成时间,格式为"yyyy-MM-dd HH:mm:ss"|2018-08-08 08:08:08|
 |expire_time|String|是|19|交易的过期时间,格式为"yyyy-MM-dd HH:mm:ss"|2018-08-08 08:08:08|
 |extra|String|是|500|扩展字段，业务自己决定放什么；不超过500个字符；json格式||
-|time|Int|是|10|发送请求的时间戳，精确到秒||
+|time|Int|是|10|发送请求的时间戳，精确到秒|1514917884|
 
 
 |time |Int|是|10|发送请求的时间戳，精确到秒|1514917884|
