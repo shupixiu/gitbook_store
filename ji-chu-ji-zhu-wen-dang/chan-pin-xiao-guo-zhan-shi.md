@@ -13,6 +13,8 @@
 
 ###支付成功页面
 ![](/assets/pay_zhanshi_3.png)
+
+###订单详情页
 ![](/assets/pay_zhanshi_4.png)
 
 
