@@ -16,11 +16,10 @@ URL地址：https://iov.service.baidu.com/iovorder/changeOrderStatus
  |order_id |String|是|64| 车联网订单id|1069227442364|
  |order_status |Int|订单状态|是|3| 期望更新后订单状态|
 
-|参数名 | 参数含义 | 格式说明|是否必须|
-|:----|:---:|----:|
- |uid |百度uid| bigint|是|
- |identity_no  |身份标识[服务器端分配] |string|是|
- |time |请求时间戳| 时间戳，精确到秒|是|
- |order_id |订单id| int|是|
- |order_status |订单状态| int|是|
- |sign |签名| string|是|
+###返回结果
+|参数名 |类型|是否必填|最大长度|描述|实例值
+| :------| :------ | :------ | :------ | :------ | :------
+ |errno|Int|是|-|返回码|0|
+ |errmsg|String|是|64|返回信息|| 
+ |data |Object |是|-|返回数据||
+
