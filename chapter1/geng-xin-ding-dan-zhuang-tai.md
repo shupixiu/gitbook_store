@@ -23,3 +23,9 @@ URL地址：https://iov.service.baidu.com/iovorder/changeOrderStatus
  |errmsg|String|是|64|返回信息|| 
  |data |Object |是|-|返回数据||
 
+###请求实例
+
+###响应实例
+
+
+

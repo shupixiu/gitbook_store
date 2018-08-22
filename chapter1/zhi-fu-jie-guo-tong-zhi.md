@@ -16,4 +16,22 @@
  |time |Int|是|10|发送请求的时间戳，精确到秒|1514917884
  |sign |string| 是|商户请求参数的签名串，详见签名|详见示例
  |order_id |String|是|64| 车联网订单id|1069227442364|
+ |out_trade_no |String|是|32|商户订单号|900020199
+|pay_time |是|19|支付完成时间,格式为"yyyy-MM-dd HH:mm:ss"|2018-08-08 08:08:08
+|total_amount|Int|是|-|支付总金额，以分为单位||
+|pay_ret|Int|是|-|支付结果，1-支付成功  2-支付失败||
+|pay_channel |Int|是|3|支付渠道| |
 
+
+
+
+
+
+
+ |order_id |订单id| int|是|
+ |scene_order_id |业务方订单id|string 不超过21个字符|是|
+ |total_amount |支付总金额，以分为单位|非负整数，不超过14个字符|是|
+ |pay_ret |支付结果 1-支付成功  2-支付失败|int|是|
+ |pay_channel |支付渠道 1-百度钱包 2-微信 3-支付宝| int|是|
+ |channel_tx_no |支付渠道流水号| string|是|
+ |sign |签名| string|是|
