@@ -13,5 +13,5 @@
   * [查询订单](chapter1/cha-xun-ding-dan.md)
   * [更新订单状态](chapter1/geng-xin-ding-dan-zhuang-tai.md)
   * [申请退款](chapter1/shen-qing-tui-kuan.md)
-  * 代扣
+  * [代扣](chapter1/dai-kou.md)
 
