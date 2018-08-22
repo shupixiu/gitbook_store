@@ -14,7 +14,9 @@
 
 
 
-
+##alipay.trade.fastpay.refund.query(统一收单交易退款查询)
+###接口链接
+URL地址：https://api.mch.weixin.qq.com/pay/unifiedorder
 
 ###请求参数
  |参数名 |类型|是否必填|最大长度|描述|实例值
@@ -37,7 +39,7 @@
 |transport_price|Int|是|-|运费，以分为单位||
 |out_trade_time|String|是|19|业务订单生成时间,格式为"yyyy-MM-dd HH:mm:ss"|2018-08-08 08:08:08
 |expire_time|String|是|19|交易的过期时间,格式为"yyyy-MM-dd HH:mm:ss"|2018-08-08 08:08:08
-
+|extra|String|是|500|扩展字段，业务自己决定放什么；不超过500个字符；json格式|
 
 
  ###返回结果
