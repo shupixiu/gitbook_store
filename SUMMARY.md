@@ -6,7 +6,7 @@
   * [产品效果展示](ji-chu-ji-zhu-wen-dang/chan-pin-xiao-guo-zhan-shi.md)
   * [调用流程](ji-chu-ji-zhu-wen-dang/diao-yong-liu-cheng.md)
 * [接口规范](jie-kou-gui-ze.md)
-  * [协议规则](jie-kou-gui-ze/xie-yi-gui-ze.md)
+  * [协议规范](jie-kou-gui-ze/xie-yi-gui-ze.md)
   * [签名与验签](jie-kou-gui-ze/qian-ming.md)
   * [商户密钥和平台密钥](jie-kou-gui-ze/shang-hu-mi-yao-he-ping-tai-mi-yao.md)
 * [API列表](chapter1.md)
