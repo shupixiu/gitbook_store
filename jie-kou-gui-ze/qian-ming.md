@@ -23,3 +23,6 @@
 使用各自语言对应的SHA256WithRSA签名生成函数（如php: openssl_sign），传入待签名字符串、业务方私钥，由SHA2算法中得出sign，然后base64encode。
 
 
+###签名示例
+
+
