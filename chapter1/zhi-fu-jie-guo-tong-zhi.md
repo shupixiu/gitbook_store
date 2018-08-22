@@ -25,13 +25,13 @@
 
 
 
+###返回结果
 
 
 
- |order_id |订单id| int|是|
- |scene_order_id |业务方订单id|string 不超过21个字符|是|
- |total_amount |支付总金额，以分为单位|非负整数，不超过14个字符|是|
- |pay_ret |支付结果 1-支付成功  2-支付失败|int|是|
- |pay_channel |支付渠道 1-百度钱包 2-微信 3-支付宝| int|是|
- |channel_tx_no |支付渠道流水号| string|是|
- |sign |签名| string|是|
+###请求实例
+
+###响应实例
+
+
+
