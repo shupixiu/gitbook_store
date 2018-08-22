@@ -14,7 +14,7 @@ URL地址：https://iov.service.baidu.com/iovorder/changeOrderStatus
  |time |Int|是|10|发送请求的时间戳，精确到秒|1514917884
  |sign |string| 是|商户请求参数的签名串，详见签名|详见示例
  |order_id |String|是|64| 车联网订单id|1069227442364|
- |order_status |Int|订单状态|是|3| 车联网订单id|1069227442364|
+ |order_status |Int|订单状态|是|3| 更新的订单状态|
 
 
 
