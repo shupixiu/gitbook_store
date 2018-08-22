@@ -11,7 +11,7 @@
 
 ![](/assets/pay_zhanshi_2.png)
 
-###车机端支付成功页面
+###支付成功页面
 ![](/assets/pay_zhanshi_3.png)
 ![](/assets/pay_zhanshi_4.png)
 
