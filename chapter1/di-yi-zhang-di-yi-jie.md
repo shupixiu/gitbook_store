@@ -15,8 +15,7 @@ URL地址：https://iov.service.baidu.com/iovorder/api/generateorder
  | latitude | String| 是 | -|设备当前纬度|39.9948|
  | car_number | String | 否 |8|车牌号|京Bxxxxx |
  | version | String| 是 |5 |调用的接口版本固定值为1.0||
- |time |Int|是|-|发送请求的时间戳，精确到秒|
- |sign |string| 是|商户请求参数的签名串，详见签名|详见示例
+|time |Int|是|10|发送请求的时间戳，精确到秒|1514917884 |sign |string| 是|商户请求参数的签名串，详见签名|详见示例
 |goods_name|String|是|128|商品名称，允许包含中文；不超过128个字符或64个汉字 ||
 |goods_url|String|是|255|商品在商户网站上的url；不超过255个字符 ||
 |goods_unit_price|Int|是|-|商品单价，以分为单位 ||
