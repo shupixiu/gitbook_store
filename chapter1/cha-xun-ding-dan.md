@@ -23,7 +23,7 @@ URL地址：https://iov.service.baidu.com/iovorder/orderquery
 | :------| :------ | :------ | :------ | :------ | :------
  |errno|Int|是|-|返回码|0|
  |errmsg|String|是|64|返回信息|| 
- |data |Object |是|-|返回数据||
+ |data |Object |是|-|返回数据|{}|
 
  data字段为json格式，参数如下：
  
