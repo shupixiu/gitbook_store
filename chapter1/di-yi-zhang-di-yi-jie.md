@@ -14,7 +14,8 @@
 
 
 
-##alipay.trade.fastpay.refund.query(统一收单交易退款查询)
+##下单
+
 ###接口链接
 
 URL地址：https://iov.service.baidu.com/iovorder/api/generateorder
